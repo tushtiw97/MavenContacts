@@ -26,7 +26,7 @@
     <body>
         <%
             if(request.getParameter("loggedIn").equals("false")){
-                out.println("<form action=\"login.jsp\" method=\"POST\"><input type=\"email\" name=\"email\" placeholder=\"Enter email\" /><br><br><input type=\"number\" name=\"number\" placeholder=\"Enter name\" /><br><br><input type=\"hidden\" name=\"loggedIn\" value=\"true\" /><input type=\"submit\" value=\"Submit & Proceed\" name=\"submit\" /></form>");
+                out.println("<form action=\"account.jsp\" method=\"POST\"><input type=\"email\" name=\"email\" placeholder=\"Enter email\" /><br><br><input type=\"number\" name=\"number\" placeholder=\"Enter name\" /><br><br><input type=\"hidden\" name=\"loggedIn\" value=\"true\" /><input type=\"submit\" value=\"Submit & Proceed\" name=\"submit\" /></form>");
                 out.println("--------------------------------------------<br><br>");
                 out.println("<i>Not a member yet ? Just </i><a href=\"register.jsp?registered=false\">Register</a><i> with us, and enjoy the availability of your contacts anywhere and everywhere</i>");
             }

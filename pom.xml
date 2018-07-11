@@ -24,9 +24,29 @@
       <scope>provided</scope>
     </dependency>
     <dependency>
-        <groupId>org.mongodb</groupId>
+        <groupId>com.mongodb</groupId>
         <artifactId>mongodb-driver</artifactId>
         <version>3.8.0</version>
+    </dependency>
+    <dependency>
+        <groupId>com.mongodb</groupId>
+        <artifactId>mongodb-driver-core</artifactId>
+        <version>3.8.0</version>
+    </dependency>
+    <dependency>
+        <groupId>org.bson</groupId>
+        <artifactId>bson</artifactId>
+        <version>3.8.0</version>
+    </dependency>
+    <dependency>
+        <groupId>javax.speech</groupId>
+        <artifactId>java-speech-recognition</artifactId>
+        <version>1.0</version>
+    </dependency>
+    <dependency>
+        <groupId>org.jvoicexml.jsapi2.synthesis.freetts</groupId>
+        <artifactId>jsapi</artifactId>
+        <version>1.0</version>
     </dependency>
   </dependencies>
 
