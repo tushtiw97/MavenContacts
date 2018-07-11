@@ -8,6 +8,7 @@
 
 <%@page import = "java.sql.*" %>
 <%@page import = "javax.sql.*" %>
+<%@page import = "javax.speech.*" %>
 
 <!DOCTYPE html>
 <html>
@@ -17,6 +18,13 @@
     </head>
     <body>
         <h1>Hey, there!</h1>
+        <%
+            try{
+                throw new AudioException();
+            }catch(Exception e){
+                out.println("hi<br>");
+            }
+        %>
         <p>You need to <a href="login.jsp?loggedIn=false">login</a> in order to access/modify your contacts.</p>
     </body>
 </html>
